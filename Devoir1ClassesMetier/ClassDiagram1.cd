@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Devoir1ClassesMetier.Article">
+    <Position X="7.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAgAAAAAAAAAAAAIAAAACAAAAAAAAEAAAABAA=</HashCode>
+      <FileName>Article.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LePigiste" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Devoir1ClassesMetier.Magazine">
+    <Position X="0.75" Y="0.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAIIAAAgAAAgAQAAAAAAABAAAAAgAggAAAAYAAABAA=</HashCode>
+      <FileName>Magazine.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="LaSpecialite" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="LesArticles" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Devoir1ClassesMetier.Pigiste">
+    <Position X="1" Y="3.25" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>KgAQACAAAAAAAIACAgAAAAAAAAAAAIAAAAAAAAAAAAI=</HashCode>
+      <FileName>Pigiste.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="LesSpecialites" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Devoir1ClassesMetier.Specialite">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAUAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Specialite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Devoir1ClassesMetier.TotalPigiste">
+    <Position X="10" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAQAAAAEAAAAAAAAI=</HashCode>
+      <FileName>TotalPigiste.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
